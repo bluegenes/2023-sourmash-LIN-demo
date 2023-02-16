@@ -1,0 +1,18 @@
+name: sourmashLINdemo
+dependencies:
+  - conda-forge
+  - bioconda
+  - defaults
+channels:
+  - python=3.10
+  - rust=1.67
+  - snakemake=7.22.0
+  - sourmash>=4.4.0
+  - pandas>=1.5.2
+  - seaborn=0.12.0
+  - jupyterlab
+  - tqdm
+  - screed
+  - pip
+  - pip:
+    - git+https://github.com/dib-lab/sourmash@lins-v2#egg=sourmash
