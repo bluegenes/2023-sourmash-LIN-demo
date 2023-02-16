@@ -1,15 +1,14 @@
-name: sourmashLINdemo
-dependencies:
+name: 2023-lin-demo
+channels:
   - conda-forge
   - bioconda
   - defaults
-channels:
+dependencies:
   - python=3.10
-  - rust=1.67
   - snakemake=7.22.0
-  - sourmash>=4.4.0
   - pandas>=1.5.2
-  - seaborn=0.12.0
+  - rust=1.67
+  - seaborn=0.12.2
   - jupyterlab
   - tqdm
   - screed
